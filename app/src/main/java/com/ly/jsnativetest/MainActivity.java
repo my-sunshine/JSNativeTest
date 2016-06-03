@@ -12,6 +12,7 @@ import android.webkit.WebViewClient;
 
 public class MainActivity extends Activity implements MyJSInterfaceImp.JSAndroid {
 
+
     private WebView webView;
     private ValueCallback<Uri[]> filePath;
     private ValueCallback<Uri> mUploadMessage;
